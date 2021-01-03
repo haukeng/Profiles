@@ -1,0 +1,37 @@
+{
+    "id": "haukeng.app.sub",
+    "name": "Haukeng 应用订阅",
+    "author": "@haukeng",
+    "icon": "https://avatars1.githubusercontent.com/u/24861996?s=460&u=0f9d89a26ab8c82d5a7ebc2c5238b7e768722725&v=4",
+    "repo": "https://github.com/haukeng/Profiles",
+    "apps": [
+        {
+            "id": "aqicn_token",
+            "name": "iOS Weather AQI Standard",
+            "keys": ["aqicn_token"],
+            "descs_html": [
+                "<h4 align=\"center\">申请 Token 请点击<a href=\"https://aqicn.org/data-platform/token/\">这里</a>前往</h4>",
+                "</br>",
+                "申请 Token 仅需验证邮箱即可。"
+            ],
+            "settings": [
+                {
+                    "id": "aqicn_token",
+                    "name": "aqicn Token",
+                    "val": "null",
+                    "type": "text",
+                    "placeholder": "Please input your aqicn token",
+                    "autoGrow": false,
+                    "desc": "Please input your aqicn token"
+                }
+            ],
+            "author": "@haukeng",
+            "repo": "https://github.com/haukeng/Profiles",
+            "script": "https://raw.githubusercontent.com/haukeng/Profiles/main/QuantumultX/script/iOS_Weather_AQI_Standard.js",
+            "icons": [
+                "https://raw.githubusercontent.com/haukeng/Profiles/main/QuantumultX/icon/Task/iOS_Weather.png",
+                "https://raw.githubusercontent.com/haukeng/Profiles/main/QuantumultX/icon/Task/iOS_Weather.png"
+            ]
+        }
+    ]
+}
